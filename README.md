@@ -97,10 +97,10 @@ responsabilidades:
 
 Acesse os repositórios **`animus-server/`** e **`animus-mobile/`** e clone ambos na sua máquina, verifique no **`readme.md`** de cada repositório como rodar o projeto e quais rotas acessar.
 
-## 📚 Documentação do projeto
+<!-- ## 📚 Documentação do projeto -->
 
-- [DoR (Definition of Ready)](https://github.com/CtrI-Alt-Del/animus/blob/main/documentation/dor.md)
-- [DoD (Definition of Done)](https://github.com/CtrI-Alt-Del/animus/blob/main/documentation/dod.md)
+<!-- - [DoR (Definition of Ready)](https://github.com/CtrI-Alt-Del/animus/blob/main/documentation/dor.md) -->
+<!-- - [DoD (Definition of Done)](https://github.com/CtrI-Alt-Del/animus/blob/main/documentation/dod.md) -->
 <!-- - [Estratégia de branches](https://github.com/CtrI-Alt-Del/animus/blob/main/documentation/branch-stragery.md) -->
 <!-- - [Padrão de commit](https://github.com/CtrI-Alt-Del/animus/blob/main/documentation/commit-pattern.md) -->
 <!-- - [Gestão da automação](https://github.com/CtrI-Alt-Del/animus/blob/main/documentation/gestao-da-automação.md) -->
