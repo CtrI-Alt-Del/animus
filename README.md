@@ -32,50 +32,48 @@ No cenário jurídico atual, a busca por precedentes relevantes é essencial par
 |   03   | 11/05/2026 à 31/05/2026 | [Relatório](https://github.com/CtrI-Alt-Del/animus/blob/main/documentation/sprints/sprint-3-report.md)  | Não Concluida |
 
 ## 🛠️ Tecnologias
-<!-- 
+
 O sistema foi desenvolvido utilizando um conjunto de tecnologias para garantir
-coleta, processamento, persistência e disponibilização dos dados meteorológicos:
+análise, processamento, persistência e disponibilização dos dados jurídicos:
 
-- **[HiveMQ](https://www.hivemq.com/)** → Broker MQTT responsável por gerenciar
-  a publicação e assinatura de mensagens.
+- **[Flutter](https://flutter.dev/)** → Framework multiplataforma para desenvolvimento
+  de interfaces móveis nativas com alta performance e código reutilizável.
 
-- **[Node.js](https://nodejs.org/)** → Plataforma usada tanto para o receptor de
-  dados quanto para o servidor principal, garantindo alta performance na
-  ingestão e tratamento das informações.
+- **[Riverpod](https://riverpod.dev/)** → Gerenciador de estado reativo e robusto
+  para Flutter, facilitando o gerenciamento de dependências e estado da aplicação.
 
-- **[NestJS](https://nestjs.com/)** → Framework sobre Node.js que estrutura o
-  servidor principal, oferecendo modularidade, injeção de dependência e
-  escalabilidade.
+- **[FastAPI](https://fastapi.tiangolo.com/)** → Framework web moderno e de alta
+  performance para construir APIs REST em Python, com validação automática e documentação.
 
-- **[MongoDB](https://www.mongodb.com/)** → Banco de dados NoSQL utilizado para
-  persistir os dados brutos recebidos das estações.
+- **[SQLAlchemy](https://www.sqlalchemy.org/)** → ORM (Object-Relational Mapper) Python
+  que facilita a interação com bancos de dados relacionais de forma segura e eficiente.
 
-- **[PostgreSQL](https://www.postgresql.org/)** → Banco de dados relacional
-  utilizado para armazenar os dados processados e otimizados para consultas.
-
-- **[Redis](https://www.postgresql.org/)** → Banco de dados não relacional
-  utilizado para caching de dados e prover o padrão pub/sub do Bull.
-
-- **[Bull](https://github.com/OptimalBits/bull)** → Biblioteca para Node.js extremamente popular usada para gerenciar filas de processamento (queues) em background.
-
-- **[Astro](https://astro.build/)** → Framework web moderno focado no Frontend e na entrega de páginas estáticas ultra-rápidas e otimizadas. 
-
-- **[Prisma](https://www.prisma.io/)** → ORM (Object-Relational Mapper) que
-  facilita a interação com os bancos de dados, como PostgreSQL e MongoDB.
-
-- **[Remix](https://remix.run/)** → Framework web usado para o front-end,
-  responsável por disponibilizar os dados ao usuário final via HTTP.
-
-- **[Tailwind CSS](https://tailwindcss.com/)** → Framework CSS utility-first
-  para a estilização da interface do usuário.
+- **[PostgreSQL](https://www.postgresql.org/)** → Banco de dados relacional robusto
+  e escalável utilizado para armazenar os dados processados e otimizados para consultas.
 
 - **[Docker](https://www.docker.com/)** → Plataforma de contêineres utilizada
-  para empacotar e executar a aplicação em ambientes isolados, facilitando o
-  deploy.
+  para empacotar e executar a aplicação em ambientes isolados, facilitando o deploy.
 
-- **[Terraform](https://www.terraform.io/)** → Ferramenta de infraestrutura como
-  código (IaC) para automatizar o provisionamento e gerenciamento da
-  infraestrutura da aplicação. -->
+- **[Inngest](https://www.inngest.com/)** → Plataforma para orquestração de fluxos
+  de trabalho e processamento de eventos em background de forma confiável e escalável.
+
+- **[OneSignal](https://onesignal.com/)** → Plataforma de notificações push que permite
+  enviar mensagens personalizadas para usuários da aplicação móvel em tempo real.
+
+- **[Google Gemini](https://gemini.google.com/)** → Modelo de IA generativa do Google
+  utilizado para análise de petições e identificação de padrões jurídicos.
+
+- **[Agno](https://www.agno.ai/)** → Framework para construção de agentes de IA autônomos
+  e inteligentes capazes de raciocínio e tomada de decisão complexa.
+
+- **[Google Cloud Storage](https://cloud.google.com/storage)** → Serviço de armazenamento
+  de objetos escalável e seguro para persistência de arquivos e documentos jurídicos.
+
+- **[Vertex AI](https://cloud.google.com/vertex-ai)** → Plataforma Google para desenvolvimento
+  e deploy de modelos de Machine Learning para análise preditiva de precedentes.
+
+- **[Firebase Authentication](https://firebase.google.com/products/auth)** → Serviço de
+  autenticação do Firebase que gerencia login seguro de usuários na aplicação.
 
 <!-- ## 🏢 Arquitetura do Projeto
 
