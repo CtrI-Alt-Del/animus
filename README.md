@@ -63,7 +63,7 @@ análise, processamento, persistência e disponibilização dos dados jurídicos
 - **[Google Gemini](https://gemini.google.com/)** → Modelo de IA generativa do Google
   utilizado para análise de petições e identificação de padrões jurídicos.
 
-- **[Agno](https://www.agno.ai/)** → Framework para construção de agentes de IA autônomos
+- **[Agno](https://www.agno.com/)** → Framework para construção de agentes de IA autônomos
   e inteligentes capazes de raciocínio e tomada de decisão complexa.
 
 - **[Google Cloud Storage](https://cloud.google.com/storage)** → Serviço de armazenamento
