@@ -4,3 +4,6 @@
 [submodule "animus-mobile"]
 	path = animus-mobile
 	url = https://github.com/CtrI-Alt-Del/animus-mobile.git
+[submodule "animus-iac"]
+	path = animus-iac
+	url = https://github.com/CtrI-Alt-Del/animus-iac.git
