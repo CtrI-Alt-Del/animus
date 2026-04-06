@@ -104,7 +104,7 @@ Acesse os repositórios **`animus-server`**, **`animus-mobile`** e **`animus-iac
 
 - [DoR (Definition of Ready)](https://github.com/CtrI-Alt-Del/animus/blob/main/documentation/dor.md)
 - [DoD (Definition of Done)](https://github.com/CtrI-Alt-Del/animus/blob/main/documentation/dod.md)
-- [Estratégia de branches](https://github.com/CtrI-Alt-Del/animus/blob/main/documentation/branch-stragery.md)
+- [Estratégia de branches](https://github.com/CtrI-Alt-Del/animus/blob/main/documentation/branch-strategy.md)
 - [Padrão de commit](https://github.com/CtrI-Alt-Del/animus/blob/main/documentation/commit-pattern.md)
 - [Modelagem do Banco de Dados](https://github.com/CtrI-Alt-Del/animus/blob/main/documentation/modelagem-banco.md)
 - [Infraestrutura do Sistema](https://github.com/CtrI-Alt-Del/animus/blob/main/documentation/infrastructure.md)
