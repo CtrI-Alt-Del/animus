@@ -54,6 +54,9 @@ análise, processamento, persistência e disponibilização dos dados jurídicos
 - **[Docker](https://www.docker.com/)** → Plataforma de contêineres utilizada
   para empacotar e executar a aplicação em ambientes isolados, facilitando o deploy.
 
+- **[Pulumi](https://www.pulumi.com/)** → Plataforma de Infrastructure as Code (IaC)
+  que permite provisionar e gerenciar a infraestrutura em nuvem usando código.
+
 - **[Inngest](https://www.inngest.com/)** → Plataforma para orquestração de fluxos
   de trabalho e processamento de eventos em background de forma confiável e escalável.
 
@@ -84,26 +87,27 @@ análise, processamento, persistência e disponibilização dos dados jurídicos
 O projeto segue uma arquitetura de microserviços com separação clara de
 responsabilidades:
 
-- **`animus-server/`**: API REST desenvolvida em FastAPI que gerencia chats,
+- **[`animus-server`](https://github.com/CtrI-Alt-Del/animus-server)**: API REST desenvolvida em FastAPI que gerencia chats,
   processamento e armazenamento dos dados das petições
-- **`animus-mobile/`**: Interface desenvolvida em Flutter que disponibiliza
+- **[`animus-mobile`](https://github.com/CtrI-Alt-Del/animus-mobile)**: Interface desenvolvida em Flutter que disponibiliza
   chats e dados para os usuários
+- **[`animus-iac`](https://github.com/CtrI-Alt-Del/animus-iac)**: Infraestrutura como código desenvolvida com Pulumi que
+  provisiona e gerencia todos os recursos em nuvem do projeto no GCP
 - **`documentation/`**: Documentação técnica e relatórios de progresso do
   projeto
 
 ## ▶️ Como executar o projeto
 
-Acesse os repositórios **`animus-server/`** e **`animus-mobile/`** e clone ambos na sua máquina, verifique no **`readme.md`** de cada repositório como rodar o projeto e quais rotas acessar.
+Acesse os repositórios **`animus-server`**, **`animus-mobile`** e **`animus-iac`** e clone-os na sua máquina. Verifique no **`readme.md`** de cada repositório como rodar o projeto e quais rotas acessar.
 
-<!-- ## 📚 Documentação do projeto -->
+## 📚 Links Úteis
 
-<!-- - [DoR (Definition of Ready)](https://github.com/CtrI-Alt-Del/animus/blob/main/documentation/dor.md) -->
-<!-- - [DoD (Definition of Done)](https://github.com/CtrI-Alt-Del/animus/blob/main/documentation/dod.md) -->
-<!-- - [Estratégia de branches](https://github.com/CtrI-Alt-Del/animus/blob/main/documentation/branch-stragery.md) -->
-<!-- - [Padrão de commit](https://github.com/CtrI-Alt-Del/animus/blob/main/documentation/commit-pattern.md) -->
-<!-- - [Gestão da automação](https://github.com/CtrI-Alt-Del/animus/blob/main/documentation/gestao-da-automação.md) -->
-<!-- - [Gestão do processo](https://github.com/CtrI-Alt-Del/animus/blob/main/documentation/gestao-do-processo.md) -->
-<!-- - [Gestão do conhecimento](https://github.com/CtrI-Alt-Del/animus/blob/main/documentation/gestao-do-conhecimento.md) -->
+- [DoR (Definition of Ready)](https://github.com/CtrI-Alt-Del/animus/blob/main/documentation/dor.md)
+- [DoD (Definition of Done)](https://github.com/CtrI-Alt-Del/animus/blob/main/documentation/dod.md)
+- [Estratégia de branches](https://github.com/CtrI-Alt-Del/animus/blob/main/documentation/branch-stragery.md)
+- [Padrão de commit](https://github.com/CtrI-Alt-Del/animus/blob/main/documentation/commit-pattern.md)
+- [Modelagem do Banco de Dados](https://github.com/CtrI-Alt-Del/animus/blob/main/documentation/modelagem-banco.md)
+- [Infraestrutura do Sistema](https://github.com/CtrI-Alt-Del/animus/blob/main/documentation/infrastructure.md)
 
 ## 👷🏻 Equipe
 
