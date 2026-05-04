@@ -27,8 +27,8 @@ No cenário jurídico atual, a busca por precedentes relevantes é essencial par
 
 | Sprint |    Período da Sprint    |                                       Link para a documentação                                       |      Status      |
 | :----: | :---------------------: | :--------------------------------------------------------------------------------------------------: | :-------------: |
-|   01   | 16/03/2026 à 05/04/2026 | [Relatório](https://github.com/CtrI-Alt-Del/animus/blob/main/documentation/sprints/sprint-1-report.md)  | Não Concluida |
-|   02   | 13/04/2026 à 03/05/2026 | [Relatório](https://github.com/CtrI-Alt-Del/animus/blob/main/documentation/sprints/sprint-2-report.md)  | Não Concluida |
+|   01   | 16/03/2026 à 05/04/2026 | [Relatório](https://github.com/CtrI-Alt-Del/animus/blob/main/documentation/sprints/sprint-1-report.md)  | Concluida |
+|   02   | 13/04/2026 à 03/05/2026 | [Relatório](https://github.com/CtrI-Alt-Del/animus/blob/main/documentation/sprints/sprint-2-report.md)  | Concluida |
 |   03   | 11/05/2026 à 31/05/2026 | [Relatório](https://github.com/CtrI-Alt-Del/animus/blob/main/documentation/sprints/sprint-3-report.md)  | Não Concluida |
 
 ## 🛠️ Tecnologias
