@@ -144,7 +144,7 @@
 
 ## Gráfico Burndown 📈
 
-[Imagem doo gráfico](documentation/media/burndown-sprint-1.png)
+![Gráfico burndown da sprint 1](../media/burndown-sprint-1.png)
 
 | Métrica | Valor |
 |---------|-------|

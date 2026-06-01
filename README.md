@@ -27,9 +27,9 @@ No cenário jurídico atual, a busca por precedentes relevantes é essencial par
 
 | Sprint |    Período da Sprint    |                                       Link para a documentação                                       |      Status      |
 | :----: | :---------------------: | :--------------------------------------------------------------------------------------------------: | :-------------: |
-|   01   | 16/03/2026 à 05/04/2026 | [Relatório](https://github.com/CtrI-Alt-Del/animus/blob/main/documentation/sprints/sprint-1-report.md)  | Concluida |
-|   02   | 13/04/2026 à 03/05/2026 | [Relatório](https://github.com/CtrI-Alt-Del/animus/blob/main/documentation/sprints/sprint-2-report.md)  | Concluida |
-|   03   | 11/05/2026 à 31/05/2026 | [Relatório](https://github.com/CtrI-Alt-Del/animus/blob/main/documentation/sprints/sprint-3-report.md)  | Não Concluida |
+|   01   | 16/03/2026 à 05/04/2026 | [Relatório](https://github.com/CtrI-Alt-Del/animus/blob/main/documentation/sprints/sprint-1-report.md)  | Concluída |
+|   02   | 13/04/2026 à 03/05/2026 | [Relatório](https://github.com/CtrI-Alt-Del/animus/blob/main/documentation/sprints/sprint-2-report.md)  | Concluída |
+|   03   | 11/05/2026 à 31/05/2026 | [Relatório](https://github.com/CtrI-Alt-Del/animus/blob/main/documentation/sprints/sprint-3-report.md)  | Concluída |
 
 ## 🛠️ Tecnologias
 
@@ -54,6 +54,12 @@ análise, processamento, persistência e disponibilização dos dados jurídicos
 - **[Docker](https://www.docker.com/)** → Plataforma de contêineres utilizada
   para empacotar e executar a aplicação em ambientes isolados, facilitando o deploy.
 
+- **[Google Cloud Run](https://cloud.google.com/run)** → Plataforma serverless utilizada
+  para executar a API do backend em contêineres de forma escalável no GCP.
+
+- **[Google Artifact Registry](https://cloud.google.com/artifact-registry)** → Serviço do GCP
+  utilizado para armazenar e versionar as imagens Docker publicadas pelos pipelines.
+
 - **[Pulumi](https://www.pulumi.com/)** → Plataforma de Infrastructure as Code (IaC)
   que permite provisionar e gerenciar a infraestrutura em nuvem usando código.
 
@@ -63,6 +69,11 @@ análise, processamento, persistência e disponibilização dos dados jurídicos
 - **[OneSignal](https://onesignal.com/)** → Plataforma de notificações push que permite
   enviar mensagens personalizadas para usuários da aplicação móvel em tempo real.
 
+- **[Firebase Cloud Messaging](https://firebase.google.com/docs/cloud-messaging)** → Serviço de
+  entrega de notificações push utilizado em conjunto com o OneSignal no aplicativo móvel.
+
+- **[Qdrant](https://qdrant.tech/)** → Banco de dados vetorial para indexação e busca semantica de precedentes.
+
 - **[Google Gemini](https://gemini.google.com/)** → Modelo de IA generativa do Google
   utilizado para análise de petições e identificação de padrões jurídicos.
 
@@ -71,9 +82,6 @@ análise, processamento, persistência e disponibilização dos dados jurídicos
 
 - **[Google Cloud Storage](https://cloud.google.com/storage)** → Serviço de armazenamento
   de objetos escalável e seguro para persistência de arquivos e documentos jurídicos.
-
-- **[Vertex AI](https://cloud.google.com/vertex-ai)** → Plataforma Google para desenvolvimento
-  e deploy de modelos de Machine Learning para análise preditiva de precedentes.
 
 - **[Firebase Authentication](https://firebase.google.com/products/auth)** → Serviço de
   autenticação do Firebase que gerencia login seguro de usuários na aplicação.
@@ -100,6 +108,10 @@ responsabilidades:
 
 Acesse os repositórios **`animus-server`**, **`animus-mobile`** e **`animus-iac`** e clone-os na sua máquina. Verifique no **`readme.md`** de cada repositório como rodar o projeto e quais rotas acessar.
 
+## 🎥 Demonstração em Vídeo
+
+- [Assistir demonstração](https://drive.google.com/file/d/1hLCMkrNh0YIMC2gVjcqiezqWGRI3nQp4/view?usp=drive_link)
+
 ## 📚 Links Úteis
 
 - [DoR (Definition of Ready)](https://github.com/CtrI-Alt-Del/animus/blob/main/documentation/dor.md)
@@ -108,6 +120,8 @@ Acesse os repositórios **`animus-server`**, **`animus-mobile`** e **`animus-iac
 - [Padrão de commit](https://github.com/CtrI-Alt-Del/animus/blob/main/documentation/commit-pattern.md)
 - [Modelagem do Banco de Dados](https://github.com/CtrI-Alt-Del/animus/blob/main/documentation/modelagem-banco.md)
 - [Infraestrutura do Sistema](https://github.com/CtrI-Alt-Del/animus/blob/main/documentation/infrastructure.md)
+- [Manual do Produto](documentation/manual-do-produto.pdf)
+- [Manual do Usuário](documentation/manual-do-usuario.pdf)
 
 ## 👷🏻 Equipe
 

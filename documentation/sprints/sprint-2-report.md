@@ -172,6 +172,10 @@
 | `bugs` | 2 | 0 |
 | `histórias (US)` | 5 | 0 |
 
+## Gráfico Burndown 📈
+
+![Gráfico burndown da sprint 2](../media/burndown-sprint-2.png)
+
 ---
 
 ## Destaques técnicos da sprint 🌟
