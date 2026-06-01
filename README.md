@@ -8,6 +8,8 @@ No cenário jurídico atual, a busca por precedentes relevantes é essencial par
 
 ## 📖 Backlog do Produto
 
+## 📖 Backlog do Produto
+
 | RF | Rank | Prioridade | User story | Estimativa | Sprint |
 |-----|------|------------|------------|------------|--------|
 | 02 | 1 | Alta | Como Juiz, quero analisar uma petição judicial, para escolher qual precedente se aplica melhor ao caso que eu irei julgar. | 21 | 1 |
@@ -17,9 +19,14 @@ No cenário jurídico atual, a busca por precedentes relevantes é essencial par
 | 04 | 5 | Média | Como Juiz, quero poder rever análises passadas feitas no aplicativo, para revisar informações importantes sobre processos que eu já julguei. | 8 | 2 |
 | 04 | 6 | Baixa | Como Juiz, quero organizar as análises do aplicativo em pastas, para que eu possa buscar as análises mais relevantes de acordo com um tema específico que eu desejo rever. | 5 | 2 |
 | 04 | 7 | Média | Como Juiz, quero ter acesso às análises mais recentes que eu fiz no aplicativo, para que eu possa rever rapidamente informações relacionadas à esses casos que eu julguei quando eu necessitar. | 8 | 2 |
-| 02 | 8 | Baixa | Como Advogado, quero receber uma análise resumida sobre uma petição escrita por mim, para que eu possa revisar o conteúdo e garantir que estou passando todas as informações que julgo serem necessárias. | 8 | 3 |
-| 03 | 9 | Baixa | Como Advogado, quero ter acesso à uma lista de precedentes aplicáveis a minha petição, para tentar prever qual pode ser a possível decisão que o juiz terá sobre o caso que eu estou advogando. | 8 | 3 |
-| 06 | 10 | Média | Como Juiz, quero receber um PDF contendo todo o relatório de análise e síntese de precedentes referente a petição que irei julgar, para documentar a escolha do precedente que utilizarei no caso atual junto à outros documentos referentes ao processo. | 13 | 3 |
+| 06 | 8 | Média | Como Juiz, quero receber um PDF contendo todo o relatório de análise e síntese de precedentes referente a petição que irei julgar, para documentar a escolha do precedente que utilizarei no caso atual junto à outros documentos referentes ao processo. | 13 | 2 |
+| 02 | 9 | Baixa | Como Advogado, quero receber uma análise resumida sobre uma petição escrita por mim, para que eu possa revisar o conteúdo e garantir que estou passando todas as informações que julgo serem necessárias. | 8 | 3 |
+| 03 | 10 | Baixa | Como Advogado, quero ter acesso à uma lista de precedentes aplicáveis a minha petição, para tentar prever qual pode ser a possível decisão que o juiz terá sobre o caso que eu estou advogando. | 8 | 3 |
+| 07 | 11 | Média | Como Advogado, quero receber os precedentes aplicáveis à minha petição ranqueados por relevância, para escolher com mais segurança jurídica quais utilizarei como base para o meu caso. | 8 | 3 |
+| 07 | 12 | Média | Como Advogado, quero entender o motivo pelo qual cada precedente foi selecionado para o meu caso, para avaliar se ele realmente se aplica à situação do meu cliente antes de utilizá-lo. | 8 | 3 |
+| 07 | 13 | Média | Como Advogado, quero receber uma sugestão de estrutura de petição inicial gerada com base nos precedentes selecionados, para reduzir o tempo de elaboração e aumentar a consistência jurídica do meu documento. | 13 | 3 |
+| 08 | 14 | Alta | Como Juiz, quero que o sistema extraia automaticamente a petição inicial de dentro dos autos enviados, para que eu não precise identificar ou separar a peça manualmente antes de iniciar a análise. | 13 | 3 |
+| 08 | 15 | Alta | Como Juiz, quero receber uma minuta de sentença gerada com base nos precedentes aplicáveis ao caso extraído dos autos, para acelerar minha análise e padronizar a fundamentação jurídica da decisão. | 21 | 3 |
 
 ---
 
